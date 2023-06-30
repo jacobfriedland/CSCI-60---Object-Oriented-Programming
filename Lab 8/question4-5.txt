@@ -1,0 +1,15 @@
+Friedland Jacob & Liu Aaron
+
+4.
+
+You are assigning an additional variable that uses an additional function during the traversal
+which makes the code more inefficient as the computation time is bigger.
+
+5.
+
+A linked list would be better for accessing data when modification is frequent because it can modify data
+without requiring every single element in the linked list to be shifted forwards or backwards. Instead it can change where
+its pointers point to at any spot in the array.
+
+An array is better for accessing data without frequently modifying it as data can be accessed at constant cost due
+to the arrays ability to store index values for components in the array.
